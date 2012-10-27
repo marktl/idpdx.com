@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	margin-left: auto;
+	margin-right: auto;
+	width:1024px;	
+	font:Arial, Helvetica, sans-serif;
+	font-size:36px;
+	height:100%;
+	}	
+img#bg {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+#content {
+  position:relative;
+  z-index:1;
+}	
+#header{
+	display:block;
+}
+#logo {	
+	float:left;
+	}
+#account {
+	padding-right:8%;
+	float:right;
+	font-style:bold;
+	font-size:24px;
+	}
+#account a{
+	color:#003EFC;
+	padding:6px;
+	padding-top:5%;
+	background-color:#FF7F00;
+	border-style:solid;
+	border-color:#003EFC;
+	}	
+
+#content{
+	border-width:thick;
+	border-color:#003EFC;
+	border-style:outset;
+	text-align:center;
+}	
+#map{
+	margin-left:auto;
+	margin-right:auto;
+	}
+		
+		
